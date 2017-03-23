@@ -3,11 +3,13 @@
 
     margin: 0;
     overflow: hidden;
-    color: black;
+    color: white;
     text-align: center;
     padding-top: 20px;
+    padding-bottom: 20px;
     font-family: "Courier New", Helvetica, sans-serif;
-    border: 1px solid black;
+    /*border: 1px solid black;*/
+    background-color: #0033a0;
 
 }
 
@@ -15,7 +17,26 @@
   padding-right: 30px;
 }
 
-.body {
+a:link, a:visited {
+  color: white;
+  text-decoration: none;
+}
+
+.btn-primary:link {
+  color: white;
+  padding: 10px;
+  background-color:#0033a0;
+  font-size: 35px;
+
+}
+
+.btn-primary:visited {
+  background-color:#0033a0
+}
+
+
+}
+/*.body {
     background-color: ##000000;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -23,17 +44,46 @@
     background-size: cover;
     padding-bottom: 20px;
     border: 1px solid red;
-  }
+  }*/
 .land-header {
   text-align: center;
-  font-size: 90px;
-  position: absolute;
   margin-left: auto;
   margin-right: auto;
-  padding-top: 60px;
-  text-align: center;
-  border: 1px solid black;
+  padding-top: 40px;
+  /*border: 1px solid black;*/
   width: 100%
 }
 
-.main-container
+.land-header p{
+  text-align: center;
+  font-size: 90px;
+}
+
+.col-sm-4 {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.ticket-container {
+  padding-top: 150px;
+  padding-right: 30px;
+}
+.com-sm-4 h1 {
+  text-align: center;
+  font-size: 30px;
+}
+
+.footer {
+  background-color: grey;
+  border: 1px solid #A9A9A9;
+}
+
+.footer h1 {
+  text-align: center;
+  color: white;
+}
+
+.footer h4 {
+  text-align: center;
+  color: white;
+}
