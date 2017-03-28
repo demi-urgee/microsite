@@ -24,6 +24,7 @@ a:link, a:visited {
 
 .btn-primary:link {
   color: white;
+  border-radius: 15px;
   padding: 10px;
   background-color:#0033a0;
   font-size: 35px;
@@ -86,4 +87,41 @@ a:link, a:visited {
 .footer h4 {
   text-align: center;
   color: white;
+}
+
+
+/* INFO */
+
+.about-event-col-sm-4 {
+  text-align: center;
+  width: 600px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.about-image-col-sm-4 {
+  width: 300px;
+  float: left;
+  margin-left: 100px;
+}
+
+.artist-col-sm-4 {
+  width: 400px;
+  float: right;
+  margin-right: 150px;
+}
+
+.artist-col-sm-4 h1{
+  text-align: center;
+  margin-left: 20px
+}
+
+ul {
+    -webkit-column-count: 2; /* Chrome, Safari, Opera */
+    -moz-column-count: 2; /* Firefox */
+    column-count: 2;
+    list-style-type: none;
+    text-align: center;
 }
